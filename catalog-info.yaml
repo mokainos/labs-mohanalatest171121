@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "labs-mohanalatest171121"
+  description: on_171121
+  annotations:
+    # This must match folder-name/job-name in Jenkins.
+    jenkins.io/github-folder: 'HMCTS_labs/labs-mohanalatest171121'
+    github.com/project-slug: 'hmcts/labs-mohanalatest171121'
+  tags:
+    - java
+    - labs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: mokainos
